@@ -13,7 +13,7 @@ func main() {
  }
  //this will give answer as 0.9749960430435691
  fmt.Println(e.GetEccentricity())
- # Just to avoid go complaining that context is not being used 
+ // Just to avoid go complaining that context is not being used 
  type Context = context.Context
  type CancelFunc = context.CancelFunc
 }
